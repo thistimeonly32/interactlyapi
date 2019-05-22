@@ -11,7 +11,7 @@ import com.liveinu.interactly.dto.ConnectionDto;
 
 @Controller
 public class ConnectionCont {
-
+//te
 	List<ConnectionDto> connectionsDto = new ArrayList<>();
 
 	@MessageMapping("/connect")
