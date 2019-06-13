@@ -9,6 +9,7 @@ public class ConnectionDto {
 	private String localPeerId;
 	private String remotePeerId;
 	private String connectionMsg;
+	private String connectionType;
 
 	public ConnectionDto() {
 		super();
@@ -43,6 +44,14 @@ public class ConnectionDto {
 
 	public void setConnectionMsg(String connectionMsg) {
 		this.connectionMsg = connectionMsg;
+	}
+
+	public String getConnectionType() {
+		return connectionType;
+	}
+
+	public void setConnectionType(String connectionType) {
+		this.connectionType = connectionType;
 	}
 
 }
